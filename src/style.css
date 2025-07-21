@@ -1,0 +1,92 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+.containr {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+@media (min-width: 640px) {
+    .containr {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .containr {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+.t {
+    transition: 0.5s;
+}
+
+/* Sec => Home */
+#Home {
+    background-image: url("../imgs/Home.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding-bottom: 2rem;
+}
+/* Sec => Home */
+
+/* Sec => About */
+#About {
+    background-color: #22c55e;
+    color: white;
+}
+
+#About hr {
+    border-color: white;
+}
+
+/* Sec => Services */
+#Services {
+    background-color: #f8fafc;
+}
+
+#Services hr {
+    border-color: #22c55e;
+}
+
+/* Sec => Clients */
+#Clients {
+    background-color: #f8fafc;
+}
+
+#Clients hr {
+    border-color: #22c55e;
+}
+
+/* تحسينات للهواتف */
+@media (max-width: 767px) {
+    #Home {
+        background-attachment: scroll;
+    }
+    
+    #paragraph {
+        margin: 1rem 0;
+    }
+    
+    #Nav ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #Nav li {
+        margin: 0.5rem;
+    }
+}
