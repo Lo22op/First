@@ -3,6 +3,9 @@
 **Glint** is a responsive and visually engaging personal website built with **HTML5** and **Tailwind CSS**.  
 It features a modern layout with sections like Home, About, Services, Clients, and Contact — ideal for showcasing a portfolio or creative business.
 
+## 📸 Demo
+
+> 🔗 [Live Preview](#) – https://lo22op.github.io/First/
 ## 📌 Overview
 
 This website is designed for:
